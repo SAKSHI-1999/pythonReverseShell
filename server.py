@@ -15,6 +15,7 @@ while True:
    c, addr = s.accept()
    print(addr)
    print(c)
+   
 
    c.send(b'Thank you for connecting')
    c.close()
